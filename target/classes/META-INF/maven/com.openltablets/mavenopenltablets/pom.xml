@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.openltablets</groupId>
+	<artifactId>mavenopenltablets</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>mavenopenltablets</name>
+	<dependencies>
+		<dependency>
+			<groupId>org.openl</groupId>
+			<artifactId>org.openl.core</artifactId>
+			<version>5.19.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openl.rules</groupId>
+			<artifactId>org.openl.rules</artifactId>
+			<version>5.19.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+	</dependencies>
+</project>
